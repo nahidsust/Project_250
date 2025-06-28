@@ -1,0 +1,64 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:background="@drawable/card_capsule"
+        android:id="@+id/postTitle"
+        android:layout_width="300dp"
+        android:textColorHint="#C52B2B"
+        android:textAlignment="center"
+        android:layout_height="70dp"
+        android:textSize="25dp"
+        android:hint="Post Title"
+        android:inputType="text"
+        android:layout_marginBottom="20dp"
+        />
+
+    <EditText
+        android:id="@+id/postContent"
+        android:layout_width="match_parent"
+        android:background="@drawable/card_capsule"
+        android:textAlignment="center"
+        android:textSize="25dp"
+        android:layout_height="100dp"
+        android:hint="What's on your mind?"
+        android:textColorHint="#2249D7"
+
+        android:gravity="top"
+        android:inputType="textMultiLine"
+        android:paddingTop="8dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="4dp"
+        />
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnPost"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:text="Post"
+        android:textSize="25dp"
+        android:layout_marginBottom="10dp"
+        app:backgroundTint="#2340E4"
+        app:cornerRadius="16dp"
+        android:layout_marginTop="7dp"
+        />
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/leave"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:text="Leave"
+        android:textSize="25dp"
+        android:layout_marginBottom="20dp"
+        app:backgroundTint="#2340E4"
+        app:cornerRadius="16dp" />
+
+
+</LinearLayout>

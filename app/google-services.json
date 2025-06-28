@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "117786013264",
+    "project_id": "final-fe279",
+    "storage_bucket": "final-fe279.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:117786013264:android:120a41c807f968135fab55",
+        "android_client_info": {
+          "package_name": "com.muterbattle.afinal"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCHoX3xLIuYjbrX0S35aflJeWkXdXQhJ_c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
